@@ -65,45 +65,38 @@ while (numero < 23)
 }
 
 
-// Pasos 8 al ... en proceso 
-
 /*
+ Pasos 8 al 9
 del 1 al 21 impares no incluidos en 10 al 20 , r: 1, 3, 9, 21
-
-
-console.log("\n") ;
-let numero =   1
-while (numero < 22)
-{
-	console.log(numero + ` dec = `+ 
-		    numero.toString(16) +  ` hex = ` +
-		    numero.toString(8) + ` oct = ` +
-		    numero.toString(2) + ` bin  `
- )
-
-;
-	numero = numero + 1 ;
-}
-
-
+ - determinar numeros impares  em un rango
+ - excluir numeros contenidos en el intervalo 10-20
+ -generar lista
 */
 
-// determinar numeros impares  em un rango
-// excluir numeros contenidos en el intervalo 10-20
-// generar lista
+let num = 0
 
-/*
-let nroimpar = 0
+console.log("\n")
 
-while (nroimpar < 22)
+while (num < 22)
 {
-	let i = 2
-	function evaluar(){
-		if (nroimpar % i == 0) {return true}
-		return false ;
-		
-	}
+        function evaluar(){
+        if (num % 2 === 0) {return false}
+        else if  (num > 10 && num < 20)   {return false}
+        else  {return true}
+        }
+
+        if (evaluar(num) === true){ 
+        console.log (
+                    num + ` dec = `+ 
+                    num.toString(16) +  ` hex = ` +
+                    num.toString(8) + ` oct = ` +
+                    num.toString(2) + ` bin  `)         }
+        num = num + 1 ;
 }
 
+console.log("\n")
 
+
+/*
+ Pasos 10 al  ... en proceso
 */
