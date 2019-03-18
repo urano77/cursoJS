@@ -94,9 +94,13 @@ while (num < 22)
         num = num + 1 ;
 }
 
-console.log("\n")
+console.log("\n") ;
 
 
 /*
  Pasos 10 al  ... en proceso
 */
+
+console.log("Hi in Chinese is written as:\u55e8\uff0c\u4f60\u597d\u5417");
+console.log("\n") ;
+console.log("The program has finished") ;
