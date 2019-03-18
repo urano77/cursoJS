@@ -52,7 +52,7 @@ console.log("\n El valor de la constante PI es "+valorPI) ;
 
 console.log("\n") ;
 let numero =   0
-while (numero < 24)
+while (numero < 23)
 {
 	console.log(numero + ` dec = `+ 
 		    numero.toString(16) +  ` hex = ` +
