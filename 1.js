@@ -92,6 +92,7 @@ while (numero < 22)
 // excluir numeros contenidos en el intervalo 10-20
 // generar lista
 
+/*
 let nroimpar = 0
 
 while (nroimpar < 22)
@@ -105,3 +106,4 @@ while (nroimpar < 22)
 }
 
 
+*/
